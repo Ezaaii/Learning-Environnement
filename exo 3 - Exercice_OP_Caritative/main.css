@@ -1,0 +1,136 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+div {
+
+}
+.main {
+  display: flex;
+}
+header {
+  display: block;
+  float: left;
+  background-image: url(/home/user/becode/Exercice_OP_Caritative/panda.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 720px;
+  width: 100%;
+  background-color: black;
+  margin-left: 0px
+}
+.logo {
+  float: left;
+  padding-left: 15px;
+  padding-top: 15px;
+  position: absolute;
+  height: 150px;
+}
+.right {
+  float: right;
+  position: relative;
+  background-color: rgba(0,0,0,.75);
+  width: 400px;
+  height: 720px;
+}
+.right h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.right p {
+  color: white;
+  text-align: center;
+}
+.quote {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  height: 400px;
+}
+.quote span {
+  border: 1px dashed red
+  display: block;
+  text-align: center;
+  vertical-align: top;
+  height: 400px;
+  width: 100%;
+  margin: 75px auto;
+}
+.quote span .surtext{
+  font-family:  sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+}
+.quote span .soustext {
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  margin-bottom: 100px;
+}
+.quote .surtext a {
+  color: white;
+  text-decoration: none;
+}
+.quote .soustext a {
+  color: white;
+  text-decoration: none;
+}
+.text {
+  margin: 0;
+  padding: 0;
+  height: 400px;
+}
+.text .colone {
+  display: block;
+  width: 100%;
+}
+.text .colone div {
+  display: block;
+  font-size: 18px;
+  float: left;
+  width: 400px;
+  height: 100px;
+  margin-left: 150px;
+  margin-top: 50px;
+  line-height: 20px;
+  text-align: justify;
+}
+.text .colone div h2 {
+  text-transform: uppercase;
+}
+.text .colone span {
+  font-weight: bold;
+}
+.jaguar {
+  display: block;
+  height: 720px;
+  width: 100%;
+  background-color: white;
+  background-image: url(/home/user/becode/Exercice_OP_Caritative/jaguar.jpg);
+  background-size: cover;
+}
+.photos {
+  height: 400px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.photos h2{
+  text-transform: uppercase;
+  widows: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+}
+.photos img {
+  display: block;
+  height: 250px;
+  width: 250px;
+  margin-left: 65px;
+  margin-top: 10px;
+  float: left;
+  border-radius: 150px;
+}
