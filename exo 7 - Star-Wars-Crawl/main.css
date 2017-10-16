@@ -1,0 +1,45 @@
+main, html {
+  background-image: url(http://www.spaceops2018.org/upload/fond/space.jpeg);
+  background-size: cover;
+  margin: 0;
+  padding:0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  top: -25px;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 1;
+}
+.starwars{
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  perspective: 400px;
+  color: yellow;
+  font-size: 500%;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+}
+.crawl{
+  transform-origin: 50% 100%;
+  position: relative;
+  top: -100px;
+  animation: crawl 60s linear;
+}
+@keyframes crawl {
+  0% {
+    top: 0;
+    transform: rotateX(15deg) translateZ(0);
+  }
+  100% {
+    top: -6000px;
+    transform: rotateX(20deg) translateZ(-2500px);
+  }
+}
