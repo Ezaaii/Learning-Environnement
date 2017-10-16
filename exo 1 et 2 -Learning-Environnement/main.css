@@ -1,0 +1,41 @@
+html, body {
+  font-family: arial;
+  height: 100%;
+  width: 100%;
+  background-color: #66567F;
+}
+
+div {
+  padding-right: 30px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  display: block;
+  width: 700px;
+  margin: 0 auto;
+  background-color: #9981BF;
+}
+
+.tabl {
+  width: 600px;
+  line-height: 25px;
+  tab-size: 40px;
+}
+
+H1 {
+  font-weight: 600;
+}
+H2 {
+  font-weight: 600;
+}
+H3 {
+  font-weight: 600;
+}
+H4 {
+  font-weight: 600;
+}
