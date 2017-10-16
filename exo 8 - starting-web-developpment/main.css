@@ -1,0 +1,92 @@
+html, body {
+  background-color: #E5E5E5;
+}
+.bloc {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  background-color: white;
+  box-shadow: 5px 5px 0px grey;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.bloc .text {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #666666;
+}
+.bloc .text .profile {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #C4C4C4;
+}
+.bloc .text h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #FF4152;
+}
+.bloc .text p{
+  text-align: justify;
+  font-size: 18px;
+}
+.bloc .text p span{
+  font-weight: bold;
+}
+.links {
+  display: flex;
+  color: #C4C4C4;
+  flex-direction: row;
+  font-size: 18px;
+}
+.links i{
+  display: block;
+  margin: 0 auto;
+}
+.links i:hover{
+  color: #FF4152;
+}
+.button{
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 200px;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #FF4152;
+  border-radius: 5px;
+  border: 3px solid #DB293B;
+}
+.button:hover{
+  background-color: #F72E43;
+}
+.text h2 {
+  font-weight: normal;
+}
+.text h2 span {
+  background-color: #C4C4C4;
+}
+.text .films{
+  height: 200px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  display: block;
+  width: 93%;
+}
+.text .films img {
+  display: block;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  width: 23%;
+  float: left;
+}
